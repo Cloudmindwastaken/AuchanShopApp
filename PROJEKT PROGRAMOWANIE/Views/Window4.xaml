@@ -1,0 +1,14 @@
+﻿<Window x:Class="LKuznecki.Views.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LKuznecki.Views"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid Background="Aqua">
+        <Image Source="/Images/checkmark.png" Margin="258,101,297,-101"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,94,0,0" Text="Dziękujemy za dokonanie zakupów w naszym sklepie" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="400" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,139,0,0" Text="Życzymy miłego dnia i zapraszamy ponownie!" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Height="47" FontSize="16"/>
+    </Grid>
+</Window>
