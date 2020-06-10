@@ -1,0 +1,21 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using LKuznecki.Views;
+using System.Net.NetworkInformation;
+using LKuznecki.ViewModels;
+using LKuznecki.Models;
+
+namespace UnitTestProject1
+{
+    [TestClass]
+    public class Itempropertiestest
+    {
+        [TestMethod]
+        public void Cena_produktu_is_not_null()
+        {
+            var item = new Item();
+            Assert.IsNotNull(item.ItemPrice);
+
+        }
+
+    }
+}
